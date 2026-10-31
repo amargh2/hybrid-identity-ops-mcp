@@ -1,0 +1,18 @@
+# Virtual environments
+.venv
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Rollback audit logs (contains identity state snapshots)
+rollback_history/
+*.rollback.json
+
+# Python cache
+__pycache__/
+*.py[oc]
+build/
+dist/
