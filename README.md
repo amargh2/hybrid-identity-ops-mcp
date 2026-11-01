@@ -129,3 +129,4 @@ claude mcp add hybrid-identity-ops-mcp uv run --directory . hybrid-identity-ops-
 > **Admin**: *"Kick off Entra Connect sync."*
 >
 > **Agent**: Calls `trigger_entra_connect_sync(policy_type='Delta')`
+
